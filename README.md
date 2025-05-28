@@ -2,7 +2,9 @@
 
 Very quick flashing text tool I decided to make as I started using countdown timers for comfort monitors in OBS. 
 
-Note: Currently, it only supports GDI+ v3 text sources. (As of current OBS version).
+Note: Currently, this script only works GDI+ v3 text sources (As of current OBS version). 
+      There is no real reason to use an older text source as of right now.
+      If you want to, simply add the text source ID which you can find in the logs if you want FTS and older text source version.s
 
 ### **Functionality** ###
 
