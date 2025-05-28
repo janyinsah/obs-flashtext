@@ -1,12 +1,10 @@
-# obs-flashtext
-
-Flash Text OBS Script
+# **Flash Text OBS Script** #
 
 Very quick flashing text tool I decided to make as I started using countdown timers for comfort monitors in OBS. 
 
 Note: Currently, it only supports GDI+ v3 text sources. (As of current OBS version).
 
-Functionality
+### **Functionality** ###
 
 Choose Colors: Pick any two colors for the blink cycle.
 
@@ -16,7 +14,7 @@ Quick Source Selection: Dropdown or type in your text source name.
 
 Auto-Restore: Goes back to the original color when you stop.
 
-How To Use Tt....
+### **How To Use Tt....** ###
 
 Place flash_text.lua in your OBS scripts folder.
 
