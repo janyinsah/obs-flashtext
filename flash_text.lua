@@ -83,7 +83,7 @@ function script_properties()
   if sources then
     for _, src in ipairs(sources) do
       local id = obs.obs_source_get_id(src)
-      if id == "text_gdiplus" or id == "text_gdiplus_v3" or id == "text_ft2_source" then
+      if id == "text_gdiplus_v3" then
         local name = obs.obs_source_get_name(src)
         obs.obs_property_list_add_string(p, name, name)
       end
